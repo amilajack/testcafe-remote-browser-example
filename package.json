@@ -2,5 +2,12 @@
   "name": "testcafe-remote-browser-example",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "testcafe": "^0.21.0"
+  },
+  "scripts": {
+    "test": "testcafe chrome ./index.e2e.js"
+  }
 }
